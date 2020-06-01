@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.organize {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  height: 13vh;
+  width: 100vw;
+  background-color: brown;
+  display: flex;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.headerImg {
+  height: 50px;
+  width: 50px;
+  margin-left: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.shelfie {
+  color: white;
+  margin-left: 30px;
+}
+
+.form {
+  width: 40vw;
+  height: 60vh;
+  background-color: turquoise;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
+  margin-top: 100px;
+}
+
+.previewImage {
+  height: 200px;
+  width: 400px;
+  margin: 30px;
+}
+
+.inputs {
+display: flex;
+flex-direction: column;
+}
+
+.inputs label {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.inputs input {
+  width: 37vw;
+}
+
+.derpbuttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.formButtons {
+  border-radius: 10px;
+  background-color: brown;
+  font-size: 20px;
+  height: 40px;
+  margin: 19px;
+}
+
+.prodComp {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  background-color: brown;
+  height: 30vh;
+  width: 40vw;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 40px;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.productImg {
+  height: 180px;
+  width: 400px;
+  margin: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.styleProds {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 40vw;
+}
+
+.productPrice, .productProd {
+  font-size: 20px;
 }
